@@ -1,0 +1,15 @@
+OK skills/_vendored/superpowers/brainstorming/_meta.json
+OK skills/_vendored/superpowers/dispatching-parallel-agents/_meta.json
+OK skills/_vendored/superpowers/executing-plans/_meta.json
+OK skills/_vendored/superpowers/finishing-a-development-branch/_meta.json
+OK skills/_vendored/superpowers/receiving-code-review/_meta.json
+OK skills/_vendored/superpowers/requesting-code-review/_meta.json
+OK skills/_vendored/superpowers/subagent-driven-development/_meta.json
+OK skills/_vendored/superpowers/systematic-debugging/_meta.json
+OK skills/_vendored/superpowers/test-driven-development/_meta.json
+OK skills/_vendored/superpowers/using-git-worktrees/_meta.json
+OK skills/_vendored/superpowers/verification-before-completion/_meta.json
+OK skills/_vendored/superpowers/writing-plans/_meta.json
+OK skills/_vendored/superpowers/writing-skills/_meta.json
+---
+Summary: OK=13 DRIFT=0 UNREACHABLE=0 MISSING_META=0
