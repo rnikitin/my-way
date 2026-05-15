@@ -1,0 +1,11 @@
+{
+  "name": "verification-before-completion",
+  "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/verification-before-completion/SKILL.md",
+  "upstream_repo": "https://github.com/obra/superpowers",
+  "upstream_version": "main",
+  "upstream_sha": "ea52d15aabaf72bc6b558efe2c126f161b53961090ddcd712000273bfe8c7b6c",
+  "fetched_at": "2026-05-16",
+  "license": "MIT",
+  "license_url": "https://github.com/obra/superpowers/blob/main/LICENSE",
+  "local_notes": ""
+}

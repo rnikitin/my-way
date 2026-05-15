@@ -1,0 +1,11 @@
+{
+  "name": "writing-plans",
+  "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/writing-plans/SKILL.md",
+  "upstream_repo": "https://github.com/obra/superpowers",
+  "upstream_version": "main",
+  "upstream_sha": "4fd4627d2c02367879c0307d7249270bed633317ff9be82e926a6d57bf5d331b",
+  "fetched_at": "2026-05-16",
+  "license": "MIT",
+  "license_url": "https://github.com/obra/superpowers/blob/main/LICENSE",
+  "local_notes": ""
+}

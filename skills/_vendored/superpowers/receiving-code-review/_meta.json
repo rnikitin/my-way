@@ -1,0 +1,11 @@
+{
+  "name": "receiving-code-review",
+  "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/receiving-code-review/SKILL.md",
+  "upstream_repo": "https://github.com/obra/superpowers",
+  "upstream_version": "main",
+  "upstream_sha": "c9382e92b8f32363566068ecfed19d3b2651eaf40d3942b24840f839dedfc406",
+  "fetched_at": "2026-05-16",
+  "license": "MIT",
+  "license_url": "https://github.com/obra/superpowers/blob/main/LICENSE",
+  "local_notes": ""
+}
