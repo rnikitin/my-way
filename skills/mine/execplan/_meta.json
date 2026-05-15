@@ -1,0 +1,7 @@
+{
+  "name": "execplan",
+  "author": "Roman Nikitin",
+  "inspired_by": "https://developers.openai.com/cookbook/articles/codex_exec_plans",
+  "copied_from": "~/.claude/skills/execplan/",
+  "copied_at": "2026-05-16"
+}
