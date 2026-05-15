@@ -1,0 +1,450 @@
+
+FILE: ./tools/ruff.md
+  [✓] https://docs.astral.sh/ruff/
+
+  1 link checked.
+
+FILE: ./tools/uv.md
+  [✓] https://docs.astral.sh/uv/
+
+  1 link checked.
+
+FILE: ./tools/pytest.md
+  [✓] https://docs.pytest.org/
+
+  1 link checked.
+
+FILE: ./tools/README.md
+  [✓] uv.md
+  [✓] pytest.md
+  [✓] ruff.md
+  [✓] mypy.md
+  [✓] wandb.md
+  [✓] agentlint.md
+
+  6 links checked.
+
+FILE: ./tools/agentlint.md
+  [✓] https://www.agentlint.app/
+
+  1 link checked.
+
+FILE: ./tools/mypy.md
+  [✓] https://mypy.readthedocs.io/
+
+  1 link checked.
+
+FILE: ./tools/wandb.md
+  [✓] https://docs.wandb.ai/
+
+  1 link checked.
+
+FILE: ./CHANGELOG.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./archetypes/README.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./archetypes/research-ml.md
+  [✓] ../templates/agents-md/research-ml.md
+  [✓] ../templates/claude-md/research-ml.md
+  [✓] ../principles/instruction-minimalism.md
+  [✓] ../principles/memory-hygiene.md
+  [✓] ../principles/verification.md
+  [✓] ../principles/explore-plan-implement.md
+  [✓] ../skills/_vendored/superpowers/brainstorming/SKILL.md
+  [✓] ../skills/_vendored/superpowers/writing-plans/SKILL.md
+  [✓] ../skills/_vendored/superpowers/test-driven-development/SKILL.md
+  [✓] ../skills/_vendored/superpowers/systematic-debugging/SKILL.md
+  [✓] ../skills/_vendored/superpowers/verification-before-completion/SKILL.md
+  [✓] ../principles/progressive-disclosure.md
+  [✓] ../principles/context-management.md
+  [✓] ../principles/mechanical-guardrails.md
+  [✓] ../skills/_vendored/superpowers/executing-plans/SKILL.md
+  [✓] ../skills/_vendored/superpowers/subagent-driven-development/SKILL.md
+  [✓] ../skills/_vendored/superpowers/dispatching-parallel-agents/SKILL.md
+  [✓] ../skills/_vendored/superpowers/using-git-worktrees/SKILL.md
+  [✓] ../skills/_vendored/superpowers/finishing-a-development-branch/SKILL.md
+  [✓] ../skills/mine/execplan/SKILL.md
+  [✓] ../mcp/context7.md
+  [✓] ../mcp/filesystem.md
+  [✓] ../mcp/chrome.md
+  [✓] ../mcp/postgres.md
+  [✓] ../mcp/notion.md
+  [✓] ../tools/uv.md
+  [✓] ../tools/pytest.md
+  [✓] ../tools/ruff.md
+  [✓] ../tools/mypy.md
+  [✓] ../tools/wandb.md
+  [✓] ../tools/agentlint.md
+  [✓] ../templates/execplan/EXECPLAN.md
+  [✓] ../skills/_refs/openai-skills-catalog.md
+  [✓] ../skills/_refs/agents-md-2500-study.md
+  [✓] ../skills/_refs/evaluating-agents-md-paper.md
+
+  35 links checked.
+
+FILE: ./mcp/context7.md
+  [✓] https://github.com/upstash/context7
+
+  1 link checked.
+
+FILE: ./mcp/postgres.md
+  [✓] https://github.com/modelcontextprotocol/servers
+  [✓] https://www.postgresql.org/docs/
+
+  2 links checked.
+
+FILE: ./mcp/notion.md
+  [✓] https://developers.notion.com/guides/mcp/mcp
+  [✓] https://developers.notion.com/docs/get-started-with-mcp
+
+  2 links checked.
+
+FILE: ./mcp/chrome.md
+  [✓] https://developer.chrome.com/docs/devtools/agents
+  [✓] https://github.com/ChromeDevTools/chrome-devtools-mcp
+
+  2 links checked.
+
+FILE: ./mcp/README.md
+  [✓] context7.md
+  [✓] filesystem.md
+  [✓] chrome.md
+  [✓] postgres.md
+  [✓] notion.md
+
+  5 links checked.
+
+FILE: ./mcp/filesystem.md
+  [✓] https://github.com/modelcontextprotocol/servers
+
+  1 link checked.
+
+FILE: ./README.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./scripts/README.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./templates/README.md
+  [✓] agents-md/research-ml.md
+  [✓] claude-md/research-ml.md
+  [✓] execplan/EXECPLAN.md
+
+  3 links checked.
+
+FILE: ./templates/agents-md/README.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./templates/agents-md/research-ml.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./templates/claude-md/README.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./templates/claude-md/research-ml.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./templates/execplan/README.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./templates/execplan/EXECPLAN.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./principles/harness-engineering.md
+  [✓] https://openai.com/index/harness-engineering/
+
+  1 link checked.
+
+FILE: ./principles/explore-plan-implement.md
+  [✓] https://code.claude.com/docs/en/best-practices
+  [✓] https://developers.openai.com/cookbook/articles/codex_exec_plans
+
+  2 links checked.
+
+FILE: ./principles/progressive-disclosure.md
+  [✓] https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/
+  [✓] https://developers.openai.com/codex/skills
+
+  2 links checked.
+
+FILE: ./principles/context-management.md
+  [✓] https://code.claude.com/docs/en/best-practices
+  [✓] https://openai.com/index/harness-engineering/
+
+  2 links checked.
+
+FILE: ./principles/simplicity.md
+  [✓] https://github.com/multica-ai/andrej-karpathy-skills/blob/main/skills/karpathy-guidelines/SKILL.md
+  [✓] https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/
+
+  2 links checked.
+
+FILE: ./principles/README.md
+  [✓] karpathy-guidelines.md
+  [✓] harness-engineering.md
+  [✓] simplicity.md
+  [✓] verification.md
+  [✓] instruction-minimalism.md
+  [✓] memory-hygiene.md
+  [✓] mechanical-guardrails.md
+  [✓] explore-plan-implement.md
+  [✓] progressive-disclosure.md
+  [✓] context-management.md
+
+  10 links checked.
+
+FILE: ./principles/verification.md
+  [✓] https://code.claude.com/docs/en/best-practices
+  [✓] https://developers.openai.com/codex/hooks/
+
+  2 links checked.
+
+FILE: ./principles/instruction-minimalism.md
+  [✓] https://arxiv.org/abs/2602.11988
+  [✓] https://developers.openai.com/codex/guides/agents-md/
+
+  2 links checked.
+
+FILE: ./principles/mechanical-guardrails.md
+  [✓] https://openai.com/index/harness-engineering/
+  [✓] https://developers.openai.com/codex/hooks/
+  [✓] https://developers.openai.com/codex/agent-approvals-security/
+
+  3 links checked.
+
+FILE: ./principles/karpathy-guidelines.md
+  [✓] https://github.com/multica-ai/andrej-karpathy-skills/blob/main/skills/karpathy-guidelines/SKILL.md
+
+  1 link checked.
+
+FILE: ./principles/memory-hygiene.md
+  [✓] https://openai.com/index/harness-engineering/
+  [✓] https://developers.openai.com/codex/guides/agents-md/
+
+  2 links checked.
+
+FILE: ./skills/README.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./skills/mine/README.md
+  [✓] execplan/SKILL.md
+
+  1 link checked.
+
+FILE: ./skills/mine/execplan/references/execplan-spec.md
+  [/] http://localhost:8080/health
+
+  1 link checked.
+
+FILE: ./skills/mine/execplan/SKILL.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./skills/_refs/agents-md-docs.md
+  [✓] https://developers.openai.com/codex/guides/agents-md/
+
+  1 link checked.
+
+FILE: ./skills/_refs/agents-md-spec.md
+  [✓] https://github.com/agentsmd/agents.md
+
+  1 link checked.
+
+FILE: ./skills/_refs/openspec-upstream.md
+  [✓] https://github.com/Fission-AI/OpenSpec
+
+  1 link checked.
+
+FILE: ./skills/_refs/execplan-cookbook.md
+  [✓] https://developers.openai.com/cookbook/articles/codex_exec_plans
+  [✓] ../mine/execplan/SKILL.md
+  [✓] ../../templates/execplan/EXECPLAN.md
+
+  3 links checked.
+
+FILE: ./skills/_refs/codex-hooks.md
+  [✓] https://developers.openai.com/codex/hooks/
+
+  1 link checked.
+
+FILE: ./skills/_refs/awesome-cursorrules.md
+  [✓] https://github.com/PatrickJS/awesome-cursorrules
+
+  1 link checked.
+
+FILE: ./skills/_refs/evaluating-agents-md-paper.md
+  [✓] https://arxiv.org/abs/2602.11988
+  [✓] ../../principles/instruction-minimalism.md
+
+  2 links checked.
+
+FILE: ./skills/_refs/mcp-official-registry.md
+  [✓] https://registry.modelcontextprotocol.io/
+
+  1 link checked.
+
+FILE: ./skills/_refs/anthropic-effective-harnesses.md
+  [✓] https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents
+
+  1 link checked.
+
+FILE: ./skills/_refs/README.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./skills/_refs/karpathy-guidelines.md
+  [✓] https://github.com/multica-ai/andrej-karpathy-skills/blob/main/skills/karpathy-guidelines/SKILL.md
+  [✓] ../../principles/karpathy-guidelines.md
+
+  2 links checked.
+
+FILE: ./skills/_refs/openai-skills-catalog.md
+  [✓] https://github.com/openai/skills
+
+  1 link checked.
+
+FILE: ./skills/_refs/codex-agent-approvals-security.md
+  [✓] https://developers.openai.com/codex/agent-approvals-security/
+
+  1 link checked.
+
+FILE: ./skills/_refs/simonw-agentic-patterns.md
+  [✓] https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/
+
+  1 link checked.
+
+FILE: ./skills/_refs/agents-md-2500-study.md
+  [✓] https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/
+
+  1 link checked.
+
+FILE: ./skills/_refs/cursor-rules-docs.md
+  [✓] https://docs.cursor.com/en/context
+
+  1 link checked.
+
+FILE: ./skills/_refs/claude-code-best-practices.md
+  [✓] https://code.claude.com/docs/en/best-practices
+
+  1 link checked.
+
+FILE: ./skills/_refs/openai-harness-engineering.md
+  [✓] https://openai.com/index/harness-engineering/
+  [✓] ../../principles/harness-engineering.md
+  [✓] ../../principles/mechanical-guardrails.md
+
+  3 links checked.
+
+FILE: ./skills/_vendored/README.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./skills/_vendored/superpowers/using-git-worktrees/SKILL.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./skills/_vendored/superpowers/test-driven-development/SKILL.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./skills/_vendored/superpowers/systematic-debugging/SKILL.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./skills/_vendored/superpowers/dispatching-parallel-agents/SKILL.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./skills/_vendored/superpowers/executing-plans/SKILL.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./skills/_vendored/superpowers/finishing-a-development-branch/SKILL.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./skills/_vendored/superpowers/README.md
+  [✓] https://github.com/obra/superpowers
+  [✓] brainstorming/SKILL.md
+  [✓] dispatching-parallel-agents/SKILL.md
+  [✓] executing-plans/SKILL.md
+  [✓] finishing-a-development-branch/SKILL.md
+  [✓] receiving-code-review/SKILL.md
+  [✓] requesting-code-review/SKILL.md
+  [✓] subagent-driven-development/SKILL.md
+  [✓] systematic-debugging/SKILL.md
+  [✓] test-driven-development/SKILL.md
+  [✓] using-git-worktrees/SKILL.md
+  [✓] verification-before-completion/SKILL.md
+  [✓] writing-plans/SKILL.md
+  [✓] writing-skills/SKILL.md
+
+  14 links checked.
+
+FILE: ./skills/_vendored/superpowers/brainstorming/SKILL.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./skills/_vendored/superpowers/writing-plans/SKILL.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./skills/_vendored/superpowers/requesting-code-review/SKILL.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./skills/_vendored/superpowers/receiving-code-review/SKILL.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./skills/_vendored/superpowers/writing-skills/SKILL.md
+  [✓] https://agentskills.io/specification
+
+  1 link checked.
+
+FILE: ./skills/_vendored/superpowers/verification-before-completion/SKILL.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: ./skills/_vendored/superpowers/subagent-driven-development/SKILL.md
+  No hyperlinks found!
+
+  0 links checked.
