@@ -53,7 +53,7 @@ Load only the section needed for the task:
 - Do not leave blind links.
   Because: reference files should explain why the source matters and when to open it.
 - Keep root instructions compact. Move long explanations into principles, archetypes, skills, or references.
-- Preserve source provenance for copied or adapted material.
+- Preserve source provenance for copied or adapted material: source URL, license, fetched date, upstream SHA when available, and local notes.
 - Do not copy copyrighted sources wholesale.
   Because: distillation plus a source link keeps the repo useful without redistributing protected text.
 - Open-licensed sources may be archived locally when source durability matters.
@@ -80,7 +80,7 @@ Load only the section needed for the task:
 
 ## Artifact Rules
 
-- Store validation reports outside the repo unless they are intentionally useful as durable examples.
+- Store validation reports outside the repo unless a README, principle, template, or test fixture links to them as durable examples.
 - Keep generated local outputs out of commits by default.
 - Do not add databases or external storage just to hold research artifacts.
   Because: local file-backed artifacts are the default until a project has a real storage requirement.
@@ -94,6 +94,5 @@ Load only the section needed for the task:
 
 ## Commit Rules
 
-- Keep commits focused and descriptive.
 - Update `CHANGELOG.md` for public-facing structural changes.
 - Re-run the local checks after changing root instructions, README navigation, skills, templates, or link-heavy reference files.

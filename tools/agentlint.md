@@ -23,6 +23,8 @@ sources:
 
 **When to use.** Use during repo setup, before public release, before serious PR/release work, and whenever `AGENTS.md`, `CLAUDE.md`, `.cursor/rules`, skills, hooks, workflows, validation commands, `HANDOFF.md`, or security files change.
 
+**Extended checks.** The normal CLI score is `core`. Deep and Session are opt-in extended checks. Deep reviews instruction files for contradictions, dead-weight rules, and vague boundaries. Session reads Claude Code logs and should use redacted output unless there is an explicit reason to inspect raw snippets.
+
 **When to skip.** Skip in offline environments, very small private throwaway experiments, or emergency patches where a targeted test is more important than a full harness audit.
 
 **Cost.** Third-party dependency and possible network usage.

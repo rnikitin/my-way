@@ -32,9 +32,13 @@ Run cadence:
 - Whenever the harness changes: skills, hooks, workflows, Makefile/package scripts, security files, handoff files, or test commands.
 - Periodically for active shared repos, for example monthly or before major planning cycles.
 
+Default CLI runs are core deterministic checks. Deep and Session are extended opt-in checks:
+
+- Deep analyzes instruction files for contradictions, dead-weight rules, and vague decision boundaries. Run it when editing root instructions, templates, or principle files.
+- Session analyzes Claude Code session logs and should stay redacted by default. Run it when looking for recurring user corrections, ignored rules, or missing instructions. If no matching project logs exist, record that as "not applicable" rather than forcing unrelated logs into the project score.
+
 Treat the score as a signal, not a law. Fix concrete findings such as missing entry files, missing commands, missing `.env` ignores, missing security policy, broken handoff conditions, or absent local test commands. For generic recommendations such as CI policy, test-required gates, or history rewriting, decide deliberately and document the tradeoff in `HANDOFF.md`, an ExecPlan, or project docs.
 
 **Anti-patterns.** Running AgentLint once at project creation and never again. Chasing a perfect score by adding fake tests, fake CI, or heavyweight automation. Ignoring valid findings because they are "just docs." Treating a clean audit as a replacement for project-specific verification. Committing generated audit reports by default.
 
 **References.** AgentLint, OpenAI Harness Engineering, and Codex `AGENTS.md` guidance.
-
