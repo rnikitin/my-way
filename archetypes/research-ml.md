@@ -49,8 +49,8 @@ Keep mandatory and recommended MCP servers to five total. Add others only when a
 | mandatory | [`context7`](../mcp/context7.md) | Pulls current framework and library docs without relying on stale model memory. |
 | mandatory | [`filesystem`](../mcp/filesystem.md) | Lets agents read local datasets, artifacts, and experiment files without broad context dumps. |
 | recommended | [`chrome`](../mcp/chrome.md) | Useful for visual checks of notebooks, dashboards, plots, and local reports. |
-| recommended | [`postgres`](../mcp/postgres.md) | Useful when experiment metadata, feature stores, or evaluation results live in Postgres. |
 | recommended | [`notion`](../mcp/notion.md) | Useful for syncing polished research writeups or PM-facing summaries. |
+| optional | [`postgres`](../mcp/postgres.md) | Use only when experiment metadata, feature stores, or evaluation results already live in Postgres. Do not introduce it for artifact storage. |
 
 ## Tools
 
@@ -60,7 +60,7 @@ Keep mandatory and recommended MCP servers to five total. Add others only when a
 | mandatory | [`pytest`](../tools/pytest.md) | Unit and integration checks for data transforms, losses, and evaluation gates. |
 | mandatory | [`ruff`](../tools/ruff.md) | Fast lint and formatting checks. |
 | mandatory | [`mypy`](../tools/mypy.md) | Type checks for boundaries that must stay stable. |
-| mandatory | [`wandb`](../tools/wandb.md) | Experiment tracking when runs need metrics, configs, and artifacts. |
+| mandatory | [`wandb`](../tools/wandb.md) | Experiment tracking when runs need metrics, configs, and comparisons. Artifacts remain file-backed by default. |
 | optional | `marimo` | Notebook-style exploratory UI with more reproducible execution than ad hoc notebooks. |
 | optional | `polars` | Fast dataframe work for feature engineering and offline audits. |
 | optional | `duckdb` | Local analytical queries over CSV, Parquet, and experiment outputs. |
@@ -131,7 +131,7 @@ Use a routing index so the agent knows where to look first:
 - `memory/knowledge/` - permanent research and technical lessons
 - `docs/phase_registry.md` - source of truth for active, frozen, skipped, and completed phases
 
-Keep raw run artifacts out of memory. Store them under ignored `data/` or the experiment tracking system.
+Keep raw run artifacts out of memory. Store them as ignored files under `data/artifacts/` or `data/runs/` by default. External artifact stores are opt-in, not the baseline.
 
 ## Secrets & Auth
 
@@ -140,8 +140,8 @@ Never commit secrets or raw credentials.
 Recommended locations:
 
 - `.env` and `.env.local` for local-only environment values; both gitignored
-- `wandb login` for W&B credentials
-- Postgres credentials in environment variables or a local secret manager
+- `wandb login` for W&B credentials when W&B is used for metrics or run comparison
+- Postgres credentials in environment variables or a local secret manager only for projects that already use Postgres
 - Claude Code credentials in the tool's own local config
 - Notion OAuth through the relevant MCP or app connector
 
@@ -180,7 +180,7 @@ Minimum gate for model changes:
 3. Random seed or seed set documented.
 4. Baseline comparison included.
 5. Leakage, lookahead, and target-construction checks addressed.
-6. Metrics and config saved in W&B, local JSON, or a phase report.
+6. Metrics and config saved in local JSON/CSV, W&B, or a phase report; artifacts saved as ignored files unless the project explicitly chooses external storage.
 7. Promotion decision based on validation or predeclared gate, not post hoc test selection.
 
 ## Typical Pitfalls
@@ -212,4 +212,3 @@ Minimum gate for model changes:
 - [ ] Create or update a phase registry if the project has multiple research phases.
 - [ ] Add `.env.example` without secrets.
 - [ ] Run the first verification command and record expected output in `README.md` or `AGENTS.md`.
-

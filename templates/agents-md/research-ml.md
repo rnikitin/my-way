@@ -72,6 +72,7 @@ def load_predictions(path: Path) -> np.ndarray:
 ### Always Do
 - State assumptions before changing experiment design or promotion gates.
 - Preserve raw data snapshots; derive new datasets reproducibly.
+- Store run artifacts as ignored files under `data/artifacts/` or `data/runs/` by default.
 - Record dataset version, seed, config, baseline, and evaluation split for promoted results.
 - Distinguish hypothesis, implementation result, validation result, holdout result, and live/paper result.
 - Verify leakage, lookahead, and target construction before trusting strong metrics.
@@ -86,6 +87,6 @@ def load_predictions(path: Path) -> np.ndarray:
 - Never edit `data/raw/` in place.
 - Never select winners on test data unless the plan explicitly defines that as an audit.
 - Never commit credentials, private datasets, or generated heavy run directories.
+- Never introduce a database only to store research artifacts.
 - Never present a single split or lucky seed as robust model skill.
 - Never silently rewrite a biased or leaked result; add a retraction note instead.
-
