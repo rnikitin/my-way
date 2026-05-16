@@ -10,7 +10,7 @@ The repository is intentionally documentation-first. It does not install anythin
 |------|---------|
 | [AGENTS.md](AGENTS.md) | Instructions for agents working on this repository itself. |
 | [archetypes/](archetypes/) | Project-type guides that say which principles, tools, MCP servers, skills, and templates to use. |
-| [principles/](principles/) | Short reusable rules for agent work: memory, verification, instruction minimalism, harness design, context management, and simplicity. |
+| [principles/](principles/) | Short reusable rules for agent work: memory, verification, instruction minimalism, harness audits, context management, and simplicity. |
 | [templates/](templates/) | Starter files for `AGENTS.md`, thin `CLAUDE.md` shims, and long-running execution plans. |
 | [skills/](skills/) | Vendored public skills, original local skills such as `frontend-design`, and reference notes for sources that should not be copied wholesale. |
 | [mcp/](mcp/) | Curated MCP server notes with archetype fit, config guidance, and when to skip each server. |
@@ -58,6 +58,7 @@ Until those are written, use the research-ml archetype as the reference for file
 - Prefer file-backed artifacts by default; add databases or external stores only when the project already needs them.
 - Standardize reusable behavior as `SKILL.md` files with source metadata.
 - Turn repeated feedback into checks, hooks, tests, or templates instead of longer prose.
+- Run a harness audit such as AgentLint at bootstrap, before public release, and whenever agent-facing instructions or validation commands change.
 - Require verification evidence before claiming a task is complete.
 
 ## Maintenance
@@ -74,7 +75,7 @@ For a full markdown link check:
 make link-check
 ```
 
-For an optional harness audit:
+For a recommended harness audit:
 
 ```bash
 npx -y -p agentlint-ai agentlint check --project-dir . --format terminal

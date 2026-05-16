@@ -27,7 +27,7 @@ bash tests/docs-check.test.sh
 make test
 ```
 
-Run AgentLint as an external harness audit when changing root instructions, skills, or rule surfaces:
+Run AgentLint as a harness audit at bootstrap, before public release, and when changing root instructions, skills, hooks, workflows, validation commands, handoff files, or security files:
 
 ```bash
 npx -y -p agentlint-ai agentlint check --project-dir . --format terminal

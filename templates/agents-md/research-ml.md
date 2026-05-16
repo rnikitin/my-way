@@ -8,6 +8,7 @@
 - Format check: `uv run ruff format --check .`
 - Type check: `uv run mypy src tests`
 - W&B offline run: `WANDB_MODE=offline uv run python scripts/train.py --config configs/example.yaml`
+- Harness audit: `npx -y -p agentlint-ai agentlint check --project-dir . --format terminal`
 
 ## Testing
 - Add tests for reusable data transforms, metrics, loss functions, config parsing, and evaluation gates.
@@ -71,6 +72,7 @@ def load_predictions(path: Path) -> np.ndarray:
 
 ### Always Do
 - State assumptions before changing experiment design or promotion gates.
+- Run a harness audit after changing `AGENTS.md`, `CLAUDE.md`, skills, hooks, workflows, validation commands, handoff files, or security files.
 - Preserve raw data snapshots; derive new datasets reproducibly.
 - Store run artifacts as ignored files under `data/artifacts/` or `data/runs/` by default.
 - Record dataset version, seed, config, baseline, and evaluation split for promoted results.

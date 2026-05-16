@@ -22,6 +22,7 @@ This archetype fits projects with changing hypotheses, many experiments, long-ru
 - Principle: [`memory-hygiene`](../principles/memory-hygiene.md)
 - Principle: [`verification`](../principles/verification.md)
 - Principle: [`explore-plan-implement`](../principles/explore-plan-implement.md)
+- Principle: [`harness-audit`](../principles/harness-audit.md)
 - Skill: [`superpowers/brainstorming`](../skills/_vendored/superpowers/brainstorming/SKILL.md)
 - Skill: [`superpowers/writing-plans`](../skills/_vendored/superpowers/writing-plans/SKILL.md)
 - Skill: [`superpowers/test-driven-development`](../skills/_vendored/superpowers/test-driven-development/SKILL.md)
@@ -64,7 +65,7 @@ Keep mandatory and recommended MCP servers to five total. Add others only when a
 | optional | `marimo` | Notebook-style exploratory UI with more reproducible execution than ad hoc notebooks. |
 | optional | `polars` | Fast dataframe work for feature engineering and offline audits. |
 | optional | `duckdb` | Local analytical queries over CSV, Parquet, and experiment outputs. |
-| optional | [`agentlint`](../tools/agentlint.md) | Harness audit for instruction files and repo guardrails. |
+| recommended | [`agentlint`](../tools/agentlint.md) | Cross-cutting harness audit for instruction files, validation commands, handoff state, and repo guardrails. |
 
 ## Skills
 

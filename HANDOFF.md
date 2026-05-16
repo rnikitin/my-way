@@ -24,7 +24,7 @@ find . -name "*.md" -not -path "./.git/*" -print0 | while IFS= read -r -d "" fil
 done
 ```
 
-When root instructions, skills, or harness surfaces change, also run:
+At bootstrap, before public release, and when root instructions, skills, hooks, workflows, validation commands, handoff files, or security files change, also run:
 
 ```bash
 npx -y -p agentlint-ai agentlint check --project-dir . --format terminal
@@ -40,8 +40,8 @@ verify:
 
 ## Known AgentLint Findings
 
-AgentLint still flags missing CI, missing tests, missing linter configuration, missing secret scanning, and a personal email in public git history. These are known tradeoffs for the current docs-first repo:
+AgentLint still flags missing CI, a missing `test-required.yml` commit gate, and a personal email in public git history. These are known tradeoffs for the current docs-first repo:
 
 - CI and secret scanning are useful future additions but were not part of the initial lightweight repository scope.
-- There is no test suite because the repo has no runtime code; markdown link checks and sync checks are the current validation path.
+- The current test surface is docs-focused: `make test` runs vendored skill sync and markdown link checks.
 - Historical commit email should not be rewritten without an explicit history-rewrite decision.

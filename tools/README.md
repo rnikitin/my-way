@@ -17,4 +17,4 @@ Use the [archetype guide](../archetypes/) to decide which tools matter for a pro
 | [ruff](ruff.md) | research-ml, trading-data | mandatory for Python lint/format |
 | [mypy](mypy.md) | research-ml | mandatory at typed boundaries |
 | [wandb](wandb.md) | research-ml | mandatory when experiment tracking is needed |
-| [agentlint](agentlint.md) | all | optional harness audit |
+| [agentlint](agentlint.md) | all | recommended harness audit for shared or public repos |
