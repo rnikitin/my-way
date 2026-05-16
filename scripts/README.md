@@ -17,7 +17,7 @@ Reports drift between vendored skills and their upstream sources.
 Run from the repository root:
 
 ```bash
-bash scripts/sync-check.sh
+make sync-check
 ```
 
 Statuses:
@@ -31,4 +31,4 @@ The script always exits `0`; review the status lines instead of treating it as a
 
 ## Related Checks
 
-Markdown link checks are run with `markdown-link-check` and configured by [../.markdown-link-check.json](../.markdown-link-check.json). See the top-level [../README.md](../README.md) for the full command.
+Markdown link checks are run with `markdown-link-check` and configured by [../.markdown-link-check.json](../.markdown-link-check.json). Use `make link-check` for the full command.

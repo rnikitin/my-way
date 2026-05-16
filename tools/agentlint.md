@@ -17,11 +17,11 @@ sources:
 
 **Purpose.** Audit agent instruction files and harness guardrails.
 
-**Install.** Follow the current AgentLint instructions from the official site.
+**Install.** Use `npx -y -p agentlint-ai agentlint check --project-dir . --format terminal` for ad hoc runs, or follow the current AgentLint instructions from the official site for a persistent install.
 
 **Config.** Treat it as an external audit. Do not make it the only source of truth for local project policy.
 
-**When to use.** Use during repo setup, before public release, or when instruction files drift across tools.
+**When to use.** Use during repo setup, before public release, or when instruction files, skills, hooks, or tool-specific rule files drift across tools.
 
 **When to skip.** Skip in Phase A acceptance and in offline environments. The repo should remain useful without it.
 
@@ -32,4 +32,3 @@ sources:
 **Known issues / when not to use.** Do not blindly apply generated recommendations. Review changes manually.
 
 **References.** AgentLint website.
-

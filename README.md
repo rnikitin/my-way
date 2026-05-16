@@ -8,6 +8,7 @@ The repository is intentionally documentation-first. It does not install anythin
 
 | Area | Purpose |
 |------|---------|
+| [AGENTS.md](AGENTS.md) | Instructions for agents working on this repository itself. |
 | [archetypes/](archetypes/) | Project-type guides that say which principles, tools, MCP servers, skills, and templates to use. |
 | [principles/](principles/) | Short reusable rules for agent work: memory, verification, instruction minimalism, harness design, context management, and simplicity. |
 | [templates/](templates/) | Starter files for `AGENTS.md`, thin `CLAUDE.md` shims, and long-running execution plans. |
@@ -15,6 +16,8 @@ The repository is intentionally documentation-first. It does not install anythin
 | [mcp/](mcp/) | Curated MCP server notes with archetype fit, config guidance, and when to skip each server. |
 | [tools/](tools/) | Tool notes for the practical checks agents should run: test, lint, type check, sync check, and audit tools. |
 | [scripts/](scripts/) | Maintenance scripts for this repository, including vendored skill sync checks. |
+| [HANDOFF.md](HANDOFF.md) | Current repo status, next work, validation conditions, and known audit findings. |
+| [SECURITY.md](SECURITY.md) | Security reporting and maintainer expectations. |
 
 ## Quick Start
 
@@ -62,16 +65,19 @@ Until those are written, use the research-ml archetype as the reference for file
 Run these from the repository root when changing references, vendored skills, or public docs:
 
 ```bash
-bash scripts/sync-check.sh
-npx -y markdown-link-check -c .markdown-link-check.json README.md
+make test
 ```
 
 For a full markdown link check:
 
 ```bash
-find . -name "*.md" -not -path "./.git/*" -print0 | while IFS= read -r -d "" file; do
-  npx -y markdown-link-check -c .markdown-link-check.json "$file"
-done
+make link-check
+```
+
+For an optional harness audit:
+
+```bash
+npx -y -p agentlint-ai agentlint check --project-dir . --format terminal
 ```
 
 ## Source Policy

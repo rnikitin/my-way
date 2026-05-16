@@ -1,0 +1,10 @@
+title = "my-way gitleaks config"
+
+[allowlist]
+description = "Allow documentation examples and vendored metadata that intentionally mention secret-related terms."
+paths = [
+  '''skills/_vendored/.*''',
+  '''tools/agentlint\.md''',
+  '''SECURITY\.md'''
+]
+
