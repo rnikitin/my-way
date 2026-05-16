@@ -5,7 +5,9 @@
     },
     {
       "pattern": "^http://127\\.0\\.0\\.1(:[0-9]+)?/"
+    },
+    {
+      "pattern": "^https://openai\\.com/index/harness-engineering/?$"
     }
   ]
 }
-

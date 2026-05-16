@@ -1,0 +1,8 @@
+interface:
+  display_name: "Code Simplifier"
+  short_description: "Refactor for clarity without behavior changes"
+  default_prompt: "Use $code-simplifier to simplify the recent diff while preserving exact behavior."
+
+policy:
+  allow_implicit_invocation: true
+

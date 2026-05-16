@@ -2,6 +2,14 @@
 
 Vendored MIT-licensed skills from https://github.com/obra/superpowers. Each skill directory contains the upstream SKILL.md, _meta.json provenance, and LICENSE.upstream.
 
+## Structure
+
+Each row links to the copied `SKILL.md`. Use the parent directory's [README](../README.md) for provenance rules and sync checks.
+
+## How To Navigate
+
+For planning-heavy work, start with `brainstorming`, `writing-plans`, then `executing-plans`. For implementation risk, use `test-driven-development`, `systematic-debugging`, and `verification-before-completion`. For collaboration and branch closeout, use the review and finishing skills.
+
 | Skill | Purpose |
 |-------|---------|
 | [brainstorming](brainstorming/SKILL.md) | You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation. |

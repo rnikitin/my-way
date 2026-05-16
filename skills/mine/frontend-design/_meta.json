@@ -1,0 +1,7 @@
+{
+  "source": "local-codex-skill",
+  "source_path": "~/.codex/skills/frontend-design/SKILL.md",
+  "fetched_at": "2026-05-16",
+  "license": "personal-local",
+  "local_notes": "Locally maintained skill for production-grade frontend UI work. Kept in my-way so projects can reference it explicitly instead of relying on one machine's Codex home."
+}
