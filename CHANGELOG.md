@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-05-21
+
+- Added an archetype field-hardening plan for applying the five complete archetypes against real target projects before making further template changes.
+- Added a plans index so future agents can find the source plan, completed Phase B rollout, and next hardening plan.
+
 ## 2026-05-16
 
 - Initial scaffolding for the My Way best practices repository.
