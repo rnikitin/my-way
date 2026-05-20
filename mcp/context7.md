@@ -1,10 +1,12 @@
 ---
 name: context7
 type: mcp
-archetypes: [research-ml, agent-workflow]
+archetypes: [research-ml, trading-data, agent-workflow, prototype]
 status_by_archetype:
   research-ml: mandatory
+  trading-data: recommended
   agent-workflow: mandatory
+  prototype: optional
 last_verified: 2026-05-16
 registry_url: null
 registry_status: not-found-2026-05-16
@@ -20,7 +22,7 @@ sources:
 
 **Config.** Context7 may require an API key for higher limits. Store any key in local MCP client config or a user-level secret store, not in project files.
 
-**When to use.** Use when APIs are likely to have changed: Mastra, AI SDKs, PyTorch ecosystem, browser tooling, or any fast-moving framework.
+**When to use.** Use when APIs are likely to have changed: Mastra, AI SDKs, PyTorch ecosystem, browser tooling, game engines, or any fast-moving framework.
 
 **When to skip.** Skip for stable standard-library questions or when the project already vendors exact docs for the library version.
 
@@ -31,4 +33,3 @@ sources:
 **Known issues / when not to use.** Do not use current docs to silently upgrade a project. Surface version drift before changing code.
 
 **References.** Upstream Context7 documentation.
-

@@ -18,10 +18,10 @@ Each archetype file should contain:
 | Archetype | Status | Start here when |
 |-----------|--------|-----------------|
 | [research-ml](research-ml.md) | complete proof of concept | The project has experiments, model evaluation, notebooks, datasets, or research phases. |
-| `trading-data` | planned | The project works with market data, backtests, signals, live trading, or data quality gates. |
-| `agent-workflow` | planned | The project builds agents, prompts, tool calls, workflows, or model evaluation harnesses. |
-| `docs-pm` | planned | The project is mostly product specs, program reporting, docs, roadmaps, or decision tracking. |
-| `prototype` | planned | The project is a lightweight app, game, demo, or exploratory product surface. |
+| [trading-data](trading-data.md) | complete | The project works with market data, backtests, signals, live trading, or data quality gates. |
+| [agent-workflow](agent-workflow.md) | complete | The project builds agents, prompts, tool calls, workflows, or model evaluation harnesses. |
+| [docs-pm](docs-pm.md) | complete | The project is mostly product specs, program reporting, docs, roadmaps, or decision tracking. |
+| [prototype](prototype.md) | complete | The project is a lightweight app, game, demo, or exploratory product surface. |
 
 ## How To Use
 
@@ -30,5 +30,4 @@ Each archetype file should contain:
 3. Add only the project-specific facts that the agent cannot infer from code.
 4. Follow links from the archetype into [../principles/](../principles/), [../mcp/](../mcp/), [../tools/](../tools/), and [../skills/](../skills/) when you need detail.
 
-If no archetype fits cleanly, start from [research-ml](research-ml.md) for file shape and delete everything that is not true for the target project.
-
+If no archetype fits cleanly, start from the complete archetype closest to the target project and delete everything that is not true locally.

@@ -1,9 +1,11 @@
 ---
 name: mypy
 type: tool
-archetypes: [research-ml]
+archetypes: [research-ml, trading-data, agent-workflow]
 status_by_archetype:
   research-ml: mandatory
+  trading-data: recommended
+  agent-workflow: recommended
 last_verified: 2026-05-16
 sources:
   - https://mypy.readthedocs.io/
@@ -17,7 +19,7 @@ sources:
 
 **Config.** Configure packages, strictness, and ignored third-party imports in `pyproject.toml` or `mypy.ini`.
 
-**When to use.** Use for public interfaces, data contracts, metrics, config objects, and model wrappers.
+**When to use.** Use for public interfaces, data contracts, metrics, config objects, model wrappers, tool schemas, event types, and permission boundaries.
 
 **When to skip.** Skip for raw exploratory notebooks or throwaway scripts. Do not force full strictness onto legacy code in one pass.
 
@@ -28,4 +30,3 @@ sources:
 **Known issues / when not to use.** Type checks do not catch statistical or data leakage bugs. Pair with research-specific tests.
 
 **References.** mypy documentation.
-

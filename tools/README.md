@@ -12,9 +12,12 @@ Use the [archetype guide](../archetypes/) to decide which tools matter for a pro
 
 | Tool | Archetypes | Status |
 |------|------------|--------|
-| [uv](uv.md) | research-ml, trading-data | mandatory for Python projects |
-| [pytest](pytest.md) | research-ml, trading-data | mandatory for Python tests |
-| [ruff](ruff.md) | research-ml, trading-data | mandatory for Python lint/format |
-| [mypy](mypy.md) | research-ml | mandatory at typed boundaries |
+| [uv](uv.md) | research-ml, trading-data, agent-workflow | mandatory for Python projects; optional for Python-based agent harnesses |
+| [pytest](pytest.md) | research-ml, trading-data, agent-workflow | mandatory for Python tests; optional for Python-based harness evals |
+| [ruff](ruff.md) | research-ml, trading-data, agent-workflow | mandatory for Python lint/format; optional for Python-based harnesses |
+| [mypy](mypy.md) | research-ml, trading-data, agent-workflow | mandatory for research-ml; recommended at typed data or tool-contract boundaries |
 | [wandb](wandb.md) | research-ml | mandatory when experiment tracking is needed |
-| [agentlint](agentlint.md) | all | recommended harness audit for shared or public repos |
+| [duckdb](duckdb.md) | research-ml, trading-data | recommended for local analytical SQL in trading-data; optional for research-ml |
+| [polars](polars.md) | research-ml, trading-data | optional fast dataframe engine for schema-heavy data pipelines |
+| [agentlint](agentlint.md) | all, especially agent-workflow | recommended harness audit for shared or public repos |
+| [markdown-link-check](markdown-link-check.md) | docs-pm | mandatory link checker for docs-first and reference-heavy projects |

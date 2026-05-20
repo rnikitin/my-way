@@ -12,7 +12,7 @@ Use this directory when changing vendored skills, source references, or public d
 
 ## `sync-check.sh`
 
-Reports drift between vendored skills and their upstream sources.
+Reports drift between vendored skills and their upstream sources. A simple vendored skill can use top-level `source_url` and `upstream_sha` fields in `_meta.json`. A multi-file vendored package can instead provide `tracked_files[]` entries with `path`, `source_url`, and `upstream_sha`; the script checks each tracked upstream URL independently.
 
 Run from the repository root:
 
@@ -31,4 +31,4 @@ The script always exits `0`; review the status lines instead of treating it as a
 
 ## Related Checks
 
-Markdown link checks are run with `markdown-link-check` and configured by [../.markdown-link-check.json](../.markdown-link-check.json). Use `make link-check` for the full command.
+Markdown link checks are run with `markdown-link-check` and configured by [../.markdown-link-check.json](../.markdown-link-check.json). Use `make link-check` for the full command. The link check runs under Bash with `pipefail`, so a single failed file fails the command. It skips `.git/` and `.context/` because `.context/` is ignored local agent scratch space, not public documentation.

@@ -42,14 +42,15 @@ Then fill in the placeholders for the project name, Python/CUDA versions, comman
 
 ## Current Status
 
-The first complete proof of concept is [research-ml](archetypes/research-ml.md), based on the patterns found in local research and trading projects. The remaining intended archetypes are:
+The complete archetypes are:
 
-- `trading-data`
-- `agent-workflow`
-- `docs-pm`
-- `prototype`
+- [research-ml](archetypes/research-ml.md)
+- [trading-data](archetypes/trading-data.md)
+- [agent-workflow](archetypes/agent-workflow.md)
+- [docs-pm](archetypes/docs-pm.md)
+- [prototype](archetypes/prototype.md)
 
-Until those are written, use the research-ml archetype as the reference for file shape and depth.
+For new archetypes, use the closest complete archetype as the reference for file shape and depth.
 
 ## Design Rules
 

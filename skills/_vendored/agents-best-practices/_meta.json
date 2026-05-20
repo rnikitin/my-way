@@ -1,0 +1,99 @@
+{
+  "name": "agents-best-practices",
+  "source_url": "https://raw.githubusercontent.com/DenisSergeevitch/agents-best-practices/main/SKILL.md",
+  "upstream_repo": "https://github.com/DenisSergeevitch/agents-best-practices",
+  "upstream_version": "main",
+  "upstream_commit": "10ab22a0d1e4a1cd372389d065c0d86f1f85ecb6",
+  "upstream_sha": "608dfc76adf16da39d79ade3de270ec06d77cc1dd8f3486fc65633a2928032fe",
+  "fetched_at": "2026-05-18",
+  "license": "MIT",
+  "license_url": "https://github.com/DenisSergeevitch/agents-best-practices/blob/main/LICENSE",
+  "local_notes": "Vendored as a markdown-only provider-neutral agent harness skill. Keep SKILL.md and references as upstream snapshots; put local interpretation in skills/_refs/agents-best-practices.md and repository navigation docs.",
+  "tracked_files": [
+    {
+      "path": "SKILL.md",
+      "source_url": "https://raw.githubusercontent.com/DenisSergeevitch/agents-best-practices/main/SKILL.md",
+      "upstream_sha": "608dfc76adf16da39d79ade3de270ec06d77cc1dd8f3486fc65633a2928032fe"
+    },
+    {
+      "path": "LICENSE.upstream",
+      "source_url": "https://raw.githubusercontent.com/DenisSergeevitch/agents-best-practices/main/LICENSE",
+      "upstream_sha": "e741683284c4161a8a319d4bdf20d315994ccf6a53fe77f9121081506e0e1e4c"
+    },
+    {
+      "path": "references/agent-legibility-feedback-loops.md",
+      "source_url": "https://raw.githubusercontent.com/DenisSergeevitch/agents-best-practices/main/references/agent-legibility-feedback-loops.md",
+      "upstream_sha": "3c3b8c950c2a1633246d5a4be5e558b477fc6ccdfbeb11943b5c0852d74a0e06"
+    },
+    {
+      "path": "references/agentic-loop.md",
+      "source_url": "https://raw.githubusercontent.com/DenisSergeevitch/agents-best-practices/main/references/agentic-loop.md",
+      "upstream_sha": "62139940422c18fd294844bd86e7ed849f335c18e8b80f502903101e53fd5113"
+    },
+    {
+      "path": "references/architecture.md",
+      "source_url": "https://raw.githubusercontent.com/DenisSergeevitch/agents-best-practices/main/references/architecture.md",
+      "upstream_sha": "9609656e875c58135ec76cc63fb5f5b34d75bcf6a7aba87e4cad21ffa7770372"
+    },
+    {
+      "path": "references/checklists.md",
+      "source_url": "https://raw.githubusercontent.com/DenisSergeevitch/agents-best-practices/main/references/checklists.md",
+      "upstream_sha": "489af2441b291582249077f87a2c54f9da80839a1442ce548253462e233cc315"
+    },
+    {
+      "path": "references/context-memory-compaction.md",
+      "source_url": "https://raw.githubusercontent.com/DenisSergeevitch/agents-best-practices/main/references/context-memory-compaction.md",
+      "upstream_sha": "463890b43f88089b71afbfa74cd068a99a9d3e2256d621f5499ccce2aa4f57d0"
+    },
+    {
+      "path": "references/coverage-audit.md",
+      "source_url": "https://raw.githubusercontent.com/DenisSergeevitch/agents-best-practices/main/references/coverage-audit.md",
+      "upstream_sha": "ba8240a4cf2d9055dd20c6a0cff6690836fc70866c8c63865c25e8828eca6937"
+    },
+    {
+      "path": "references/mvp-agent-blueprint.md",
+      "source_url": "https://raw.githubusercontent.com/DenisSergeevitch/agents-best-practices/main/references/mvp-agent-blueprint.md",
+      "upstream_sha": "c40a41e9f70b73470a539e8ec07b556f8402003401c2fdee7aa731178205dae2"
+    },
+    {
+      "path": "references/planning-and-goals.md",
+      "source_url": "https://raw.githubusercontent.com/DenisSergeevitch/agents-best-practices/main/references/planning-and-goals.md",
+      "upstream_sha": "e0c76aa0f19c15d32f78ca3cdd6e081cd6cb4d8f64259208744c5b31bb3c857f"
+    },
+    {
+      "path": "references/prompt-caching-and-cost.md",
+      "source_url": "https://raw.githubusercontent.com/DenisSergeevitch/agents-best-practices/main/references/prompt-caching-and-cost.md",
+      "upstream_sha": "c23f186dfa17a47213aa9dd7b0f8484b5cece796d96719ea744378d667f7791c"
+    },
+    {
+      "path": "references/provider-api-patterns.md",
+      "source_url": "https://raw.githubusercontent.com/DenisSergeevitch/agents-best-practices/main/references/provider-api-patterns.md",
+      "upstream_sha": "fc72200b85a5955573755b19371c076e0e42a32aa811a94fa7e09e255c5e4dc1"
+    },
+    {
+      "path": "references/security-evals-observability.md",
+      "source_url": "https://raw.githubusercontent.com/DenisSergeevitch/agents-best-practices/main/references/security-evals-observability.md",
+      "upstream_sha": "11b5d39af65c10f4c292688973df309827fd2af947bf82c2912dddd7ba2a20f9"
+    },
+    {
+      "path": "references/skills-and-connectors.md",
+      "source_url": "https://raw.githubusercontent.com/DenisSergeevitch/agents-best-practices/main/references/skills-and-connectors.md",
+      "upstream_sha": "89860ba02f753a14ada458890a560dac7523867838ec04743deb3d980a40b8cf"
+    },
+    {
+      "path": "references/source-links.md",
+      "source_url": "https://raw.githubusercontent.com/DenisSergeevitch/agents-best-practices/main/references/source-links.md",
+      "upstream_sha": "0c6ca0edfbd192e67a1ee99ae6bde820dc7d57841391e44409a9d3d1c063cb84"
+    },
+    {
+      "path": "references/system-prompts-instructions.md",
+      "source_url": "https://raw.githubusercontent.com/DenisSergeevitch/agents-best-practices/main/references/system-prompts-instructions.md",
+      "upstream_sha": "9a9e9a3baddff3fc0700002803e8368054740f0cfb87f1b49eb5ea027bb92f9b"
+    },
+    {
+      "path": "references/tools-and-permissions.md",
+      "source_url": "https://raw.githubusercontent.com/DenisSergeevitch/agents-best-practices/main/references/tools-and-permissions.md",
+      "upstream_sha": "b8b17220a5d2b5edf91d402f282dcef476b307be1a42f1e4e9bd955e5f31fb93"
+    }
+  ]
+}

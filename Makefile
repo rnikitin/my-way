@@ -8,10 +8,9 @@ sync-check:
 	bash scripts/sync-check.sh
 
 link-check:
-	find . -name "*.md" -not -path "./.git/*" -print0 | while IFS= read -r -d "" file; do \
+	bash -eo pipefail -c 'find . -name "*.md" -not -path "./.git/*" -not -path "./.context/*" -print0 | while IFS= read -r -d "" file; do \
 		npx -y markdown-link-check -c .markdown-link-check.json "$$file"; \
-	done
+	done'
 
 agentlint:
 	npx -y -p agentlint-ai agentlint check --project-dir . --format terminal
-

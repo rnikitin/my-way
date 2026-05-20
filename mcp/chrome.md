@@ -1,9 +1,10 @@
 ---
 name: chrome
 type: mcp
-archetypes: [research-ml, prototype, agent-workflow]
+archetypes: [research-ml, trading-data, prototype, agent-workflow]
 status_by_archetype:
   research-ml: recommended
+  trading-data: optional
   prototype: recommended
   agent-workflow: recommended
 last_verified: 2026-05-16
@@ -33,4 +34,3 @@ sources:
 **Known issues / when not to use.** Do not use browser automation to bypass auth, scrape private data, or operate user accounts without explicit scope.
 
 **References.** Chrome DevTools for agents.
-

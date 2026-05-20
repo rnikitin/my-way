@@ -1,10 +1,11 @@
 ---
 name: ruff
 type: tool
-archetypes: [research-ml, trading-data]
+archetypes: [research-ml, trading-data, agent-workflow]
 status_by_archetype:
   research-ml: mandatory
   trading-data: mandatory
+  agent-workflow: optional
 last_verified: 2026-05-16
 sources:
   - https://docs.astral.sh/ruff/
@@ -18,7 +19,7 @@ sources:
 
 **Config.** Prefer `pyproject.toml` for rules, line length, target Python version, and formatter settings.
 
-**When to use.** Use on committed Python code, scripts that become reusable, and CI checks.
+**When to use.** Use on committed Python code, scripts that become reusable, agent harness utilities, eval runners, and CI checks.
 
 **When to skip.** Skip for generated files and raw notebook exports unless the project explicitly formats them.
 
@@ -29,4 +30,3 @@ sources:
 **Known issues / when not to use.** Do not auto-fix broad legacy code during a narrow task unless the task is formatting cleanup.
 
 **References.** Ruff documentation.
-

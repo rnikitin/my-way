@@ -23,4 +23,5 @@ When adding a new skill, prefer `SKILL.md` as the canonical format and avoid cre
 | `frontend-design` | [mine/frontend-design](mine/frontend-design/SKILL.md) | Building or redesigning frontend UI. |
 | `code-simplifier` | [mine/code-simplifier](mine/code-simplifier/SKILL.md) | Cleaning up code while preserving behavior. |
 | `execplan` | [mine/execplan](mine/execplan/SKILL.md) | Planning long-running, resumable work. |
+| `agents-best-practices` | [_vendored/agents-best-practices](_vendored/agents-best-practices/SKILL.md) | Designing or auditing agent harnesses, tool-calling workflows, MCP/connectors, permissions, compaction, evals, and observability. |
 | `superpowers/*` | [_vendored/superpowers](_vendored/superpowers/) | Running structured development workflows such as brainstorming, planning, TDD, debugging, and verification. |

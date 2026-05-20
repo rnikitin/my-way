@@ -1,10 +1,11 @@
 ---
 name: pytest
 type: tool
-archetypes: [research-ml, trading-data]
+archetypes: [research-ml, trading-data, agent-workflow]
 status_by_archetype:
   research-ml: mandatory
   trading-data: mandatory
+  agent-workflow: optional
 last_verified: 2026-05-16
 sources:
   - https://docs.pytest.org/
@@ -18,7 +19,7 @@ sources:
 
 **Config.** Configure test paths and markers in `pyproject.toml` or `pytest.ini`. Keep slow or GPU-heavy tests marked separately.
 
-**When to use.** Use for pure logic, feature builders, leakage checks, metric calculations, CLI behavior, and regression tests.
+**When to use.** Use for pure logic, feature builders, leakage checks, metric calculations, CLI behavior, agent tool contracts, permission engines, compaction behavior, and regression tests.
 
 **When to skip.** Skip for one-off notebook exploration until behavior is promoted into reusable code.
 
@@ -29,4 +30,3 @@ sources:
 **Known issues / when not to use.** Passing pytest does not prove a model has research signal. Keep experiment gates separate.
 
 **References.** pytest documentation.
-

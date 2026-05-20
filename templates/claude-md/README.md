@@ -12,5 +12,8 @@ First copy the matching [AGENTS.md template](../agents-md/) into the target proj
 
 Available templates:
 
+- [agent-workflow.md](agent-workflow.md)
+- [docs-pm.md](docs-pm.md)
+- [prototype.md](prototype.md)
 - [research-ml.md](research-ml.md)
-
+- [trading-data.md](trading-data.md)

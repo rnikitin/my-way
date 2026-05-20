@@ -2,13 +2,16 @@
 
 ## Current State
 
-`my-way` is public at <https://github.com/rnikitin/my-way>. The first complete archetype is `research-ml`; the remaining planned archetypes are `trading-data`, `agent-workflow`, `docs-pm`, and `prototype`.
+`my-way` is public at <https://github.com/rnikitin/my-way>. The complete archetypes are `research-ml`, `trading-data`, `agent-workflow`, `docs-pm`, and `prototype`.
 
 The current repository intentionally favors documentation, templates, and skills over automation. There is no package manifest, application runtime, bootstrap CLI, or formal test suite.
 
+The Phase B rollout plan has no remaining open archetype tickets; future work is hardening these patterns against real target projects.
+
 ## Next Work
 
-- Author the remaining archetypes.
+- Apply the complete archetypes to real target projects and tighten anything that proves too generic.
+- Later harden `agent-workflow` after applying it to a real agent harness project.
 - Decide whether a small CI workflow is worth the maintenance cost.
 - Review whether more local Codex-home skills should move into `skills/mine/`.
 - Keep `_refs/` files as annotated source cards, not blind links.
@@ -19,7 +22,7 @@ Before calling a docs/catalog change complete, run:
 
 ```bash
 bash scripts/sync-check.sh
-find . -name "*.md" -not -path "./.git/*" -print0 | while IFS= read -r -d "" file; do
+find . -name "*.md" -not -path "./.git/*" -not -path "./.context/*" -print0 | while IFS= read -r -d "" file; do
   npx -y markdown-link-check -c .markdown-link-check.json "$file"
 done
 ```
