@@ -1,0 +1,59 @@
+{
+  "name": "goal-forge",
+  "source_url": "https://raw.githubusercontent.com/michaelpersonal/goal-forge/main/SKILL.md",
+  "upstream_repo": "https://github.com/michaelpersonal/goal-forge",
+  "upstream_version": "main",
+  "upstream_commit": "838f57e1c1957c473c4cd180742de606b9e13199",
+  "upstream_sha": "02eaf1a8a3f538d05fe41d3ef4bc8ff951d5cc478a7d3249ef99a9a238e1a28d",
+  "fetched_at": "2026-05-21",
+  "license": "MIT",
+  "license_url": "https://github.com/michaelpersonal/goal-forge/blob/main/LICENSE",
+  "local_notes": "Vendored as a Codex /goal preparation skill. Keep SKILL.md, agents/openai.yaml, references, and the read-only config inspector as upstream snapshots; put local interpretation in skills/_refs/goal-forge.md and repository navigation docs.",
+  "tracked_files": [
+    {
+      "path": "SKILL.md",
+      "source_url": "https://raw.githubusercontent.com/michaelpersonal/goal-forge/main/SKILL.md",
+      "upstream_sha": "02eaf1a8a3f538d05fe41d3ef4bc8ff951d5cc478a7d3249ef99a9a238e1a28d"
+    },
+    {
+      "path": "LICENSE.upstream",
+      "source_url": "https://raw.githubusercontent.com/michaelpersonal/goal-forge/main/LICENSE",
+      "upstream_sha": "4ebbcc2ed98096f5a6ab3b97cf439317e5cdf04e93e2196342fc187318fa9d5d"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "source_url": "https://raw.githubusercontent.com/michaelpersonal/goal-forge/main/agents/openai.yaml",
+      "upstream_sha": "dd39b732756e1b7d93de6bd45888c0c41c391d97f5949dfc1f26d31edba4e65b"
+    },
+    {
+      "path": "references/config_checklist.md",
+      "source_url": "https://raw.githubusercontent.com/michaelpersonal/goal-forge/main/references/config_checklist.md",
+      "upstream_sha": "05ac192c06b3c38086c7638646a93fa3851e80431b45125bdfe0c075bc35b087"
+    },
+    {
+      "path": "references/control_surface_templates.md",
+      "source_url": "https://raw.githubusercontent.com/michaelpersonal/goal-forge/main/references/control_surface_templates.md",
+      "upstream_sha": "2c87d9d922321fb85891eee6d1c48a251a914bb90b042f57675020f3d589141c"
+    },
+    {
+      "path": "references/goal_prompt_blocks.md",
+      "source_url": "https://raw.githubusercontent.com/michaelpersonal/goal-forge/main/references/goal_prompt_blocks.md",
+      "upstream_sha": "777cc6074e005f34ea4607d570300f9754433ee7b833db9773a1f95d33795572"
+    },
+    {
+      "path": "references/standard_execution_rules.md",
+      "source_url": "https://raw.githubusercontent.com/michaelpersonal/goal-forge/main/references/standard_execution_rules.md",
+      "upstream_sha": "7fb113190eb880bbcbaa045a8a975853766e0648ed4a3703fb9a4e2d2f075453"
+    },
+    {
+      "path": "references/working_memory_templates.md",
+      "source_url": "https://raw.githubusercontent.com/michaelpersonal/goal-forge/main/references/working_memory_templates.md",
+      "upstream_sha": "c3fe3d7cc2744eb1a37fcac17c72f00aeae28e8ee1897db08b17f1c132ebf7ea"
+    },
+    {
+      "path": "scripts/inspect_codex_config.py",
+      "source_url": "https://raw.githubusercontent.com/michaelpersonal/goal-forge/main/scripts/inspect_codex_config.py",
+      "upstream_sha": "2b5419b4d3dbe92d2a7615f2b2e64f2d1dc1cd815fdee4770006e9859a669f2d"
+    }
+  ]
+}

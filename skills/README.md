@@ -24,4 +24,5 @@ When adding a new skill, prefer `SKILL.md` as the canonical format and avoid cre
 | `code-simplifier` | [mine/code-simplifier](mine/code-simplifier/SKILL.md) | Cleaning up code while preserving behavior. |
 | `execplan` | [mine/execplan](mine/execplan/SKILL.md) | Planning long-running, resumable work. |
 | `agents-best-practices` | [_vendored/agents-best-practices](_vendored/agents-best-practices/SKILL.md) | Designing or auditing agent harnesses, tool-calling workflows, MCP/connectors, permissions, compaction, evals, and observability. |
+| `goal-forge` | [_vendored/goal-forge](_vendored/goal-forge/SKILL.md) | Turning rough coding ideas into `SPEC.md`, `GOAL.md`, scorecards, feedback loops, and `/goal` readiness checks. |
 | `superpowers/*` | [_vendored/superpowers](_vendored/superpowers/) | Running structured development workflows such as brainstorming, planning, TDD, debugging, and verification. |

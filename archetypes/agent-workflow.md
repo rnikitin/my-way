@@ -45,6 +45,7 @@ The default posture is conservative: build one reliable agent harness first, kee
 - Skill: [`superpowers/using-git-worktrees`](../skills/_vendored/superpowers/using-git-worktrees/SKILL.md)
 - Skill: [`superpowers/requesting-code-review`](../skills/_vendored/superpowers/requesting-code-review/SKILL.md)
 - Skill: [`superpowers/receiving-code-review`](../skills/_vendored/superpowers/receiving-code-review/SKILL.md)
+- Skill: [`goal-forge`](../skills/_vendored/goal-forge/SKILL.md) for compiling rough harness ideas into `/goal`-ready specs when the environment supports Codex goals
 - Skill: [`mine/execplan`](../skills/mine/execplan/SKILL.md) for long-running harness plans, eval rollouts, or connector migrations
 
 ## MCP Servers
@@ -87,6 +88,7 @@ Keep mandatory and recommended MCP servers to five total. Add others only when t
 | recommended | `subagent-driven-development` | Useful only when independent harness slices can be reviewed separately. |
 | recommended | `dispatching-parallel-agents` | Useful for independent audits: tool contracts, eval coverage, docs, and connector safety. |
 | recommended | `using-git-worktrees` | Keeps risky harness or provider migrations isolated from stable flows. |
+| recommended | `goal-forge` | Useful when a rough harness, connector, or eval idea needs a measurable `SPEC.md` and `/goal` contract with scorecard, feedback loop, and working memory. |
 | recommended | `execplan` | Better for long-running harness design and implementation plans that must survive context resets. |
 
 ## Templates

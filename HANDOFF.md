@@ -10,7 +10,7 @@ The Phase B rollout plan has no remaining open archetype tickets; future work is
 
 ## Next Work
 
-- Apply the complete archetypes to real target projects and tighten anything that proves too generic.
+- Execute the [archetype field hardening plan](plans/2026-05-21-archetype-field-hardening.md): apply complete archetypes to real target projects and tighten anything that proves too generic.
 - Later harden `agent-workflow` after applying it to a real agent harness project.
 - Decide whether a small CI workflow is worth the maintenance cost.
 - Review whether more local Codex-home skills should move into `skills/mine/`.
