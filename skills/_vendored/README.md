@@ -13,6 +13,7 @@ Each vendored skill directory should contain:
 Current vendored set:
 
 - [agents-best-practices/](agents-best-practices/SKILL.md) - MIT-licensed provider-neutral agent harness design skill with references for tool calls, permissions, compaction, MCP/connectors, evals, observability, prompt caching, and launch gates.
+- [goal-forge/](goal-forge/SKILL.md) - MIT-licensed Codex `/goal` preparation skill for turning rough coding ideas into `SPEC.md`, `GOAL.md`, scorecards, feedback loops, working memory, and config readiness checks.
 - [superpowers/](superpowers/) - MIT-licensed development workflow skills.
 
 ## How To Navigate
@@ -38,3 +39,9 @@ It is useful to `my-way` because it translates harness-engineering principles in
 - traces, evals, threat models, approval records, and launch gates
 
 Keep this package as an upstream snapshot. For local interpretation and where it should feed future `my-way` docs, use [../_refs/agents-best-practices.md](../_refs/agents-best-practices.md).
+
+## Goal Forge
+
+[`goal-forge`](goal-forge/SKILL.md) is the vendored skill for preparing Codex `/goal` runs. Use it when a rough coding idea needs to become an interviewed `SPEC.md`, tightened acceptance contract, measurable `GOAL.md`, scorecard, feedback loop, long-run working memory, and optional human control surface.
+
+Keep this package as an upstream snapshot. For local interpretation and cautions about when to prefer lighter `ExecPlan` work, use [../_refs/goal-forge.md](../_refs/goal-forge.md).

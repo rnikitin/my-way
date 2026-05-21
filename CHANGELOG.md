@@ -4,6 +4,7 @@
 
 - Added an archetype field-hardening plan for applying the five complete archetypes against real target projects before making further template changes.
 - Added a plans index so future agents can find the source plan, completed Phase B rollout, and next hardening plan.
+- Vendored the MIT-licensed `goal-forge` skill with references, Codex `/goal` config inspector script, provenance metadata, and a local source card.
 
 ## 2026-05-16
 

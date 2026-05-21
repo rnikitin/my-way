@@ -16,6 +16,7 @@ Use these files when a principle, archetype, or template cites a source and you 
 |-----------|------------|
 | [openai-skills-catalog](openai-skills-catalog.md) | Understanding the upstream `SKILL.md` format and finding skill candidates. |
 | [agents-best-practices](agents-best-practices.md) | Understanding the vendored provider-neutral agent harness skill and how it informs the `agent-workflow` archetype. |
+| [goal-forge](goal-forge.md) | Understanding the vendored Codex `/goal` preparation skill and when to use it instead of or alongside `execplan`. |
 | [agents-md-docs](agents-md-docs.md) | Codex-specific `AGENTS.md` behavior. |
 | [agents-md-spec](agents-md-spec.md) | Cross-tool `AGENTS.md` convention. |
 | [agents-md-2500-study](agents-md-2500-study.md) | Practical AGENTS.md sections and boundary patterns. |
